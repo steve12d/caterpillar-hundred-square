@@ -1,0 +1,15 @@
+{
+  "name": "Caterpillar Hundred Square",
+  "short_name": "Hundred Square",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fff6e2",
+  "theme_color": "#f7b32b",
+  "icons": [
+    {
+      "src": "/assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
