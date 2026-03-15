@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Caterpillar Hundred Square</title>
+  <meta name="description" content="A cheerful adding and subtracting game on a 100-square for children.">
+  <meta property="og:title" content="Caterpillar Hundred Square">
+  <meta property="og:description" content="Tap the right square to help the caterpillar move across the hundred board.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/assets/cover.svg">
+  <meta name="theme-color" content="#f7b32b">
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <main class="shell">
+    <section class="hero">
+      <p class="eyebrow">Maths Game</p>
+      <h1>Caterpillar Hundred Square</h1>
+      <p class="strap">Read the move, tap the answer, and watch the caterpillar wiggle to its new square.</p>
+    </section>
+
+    <section class="game-panel" aria-label="Game panel">
+      <div class="status-bar">
+        <div class="status-card">
+          <span class="status-label">Starting on</span>
+          <strong id="current-square" class="status-value">67</strong>
+        </div>
+        <div class="status-card prompt-card">
+          <span class="status-label">Move</span>
+          <strong id="prompt-text" class="prompt-text">Take away 7</strong>
+        </div>
+        <div class="status-card">
+          <span class="status-label">Correct so far</span>
+          <strong id="score-value" class="status-value">0</strong>
+        </div>
+      </div>
+
+      <div class="controls">
+        <button id="speak-button" class="pill-button" type="button">Say it aloud</button>
+        <button id="next-button" class="pill-button secondary" type="button">New puzzle</button>
+      </div>
+
+      <p id="feedback" class="feedback" aria-live="polite">Tap the square where the caterpillar should land.</p>
+
+      <div class="board-shell">
+        <div id="board" class="board" aria-label="Hundred square"></div>
+        <div id="caterpillar-token" class="caterpillar-token" aria-hidden="true">
+          <span class="segment head"></span>
+          <span class="segment"></span>
+          <span class="segment"></span>
+          <span class="segment tail"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="hint-panel">
+      <h2>How to play</h2>
+      <p>Find the square that matches the move. Example: if the caterpillar is on 67 and the move says take away 7, tap 60.</p>
+    </section>
+  </main>
+
+  <script src="/assets/app.js"></script>
+</body>
+</html>

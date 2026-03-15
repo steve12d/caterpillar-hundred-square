@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#b9f3ff"/>
+      <stop offset="60%" stop-color="#eef9d8"/>
+      <stop offset="100%" stop-color="#fff6e2"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g transform="translate(110 130)">
+    <rect x="0" y="0" width="520" height="360" rx="32" fill="rgba(255,255,255,0.75)"/>
+    <g fill="#ffffff" stroke="#d2d9c8">
+      <rect x="40" y="40" width="80" height="80" rx="16"/>
+      <rect x="132" y="40" width="80" height="80" rx="16"/>
+      <rect x="224" y="40" width="80" height="80" rx="16"/>
+      <rect x="316" y="40" width="80" height="80" rx="16"/>
+      <rect x="408" y="40" width="80" height="80" rx="16"/>
+      <rect x="40" y="132" width="80" height="80" rx="16"/>
+      <rect x="132" y="132" width="80" height="80" rx="16"/>
+      <rect x="224" y="132" width="80" height="80" rx="16"/>
+      <rect x="316" y="132" width="80" height="80" rx="16"/>
+      <rect x="408" y="132" width="80" height="80" rx="16"/>
+      <rect x="40" y="224" width="80" height="80" rx="16"/>
+      <rect x="132" y="224" width="80" height="80" rx="16"/>
+      <rect x="224" y="224" width="80" height="80" rx="16"/>
+      <rect x="316" y="224" width="80" height="80" rx="16"/>
+      <rect x="408" y="224" width="80" height="80" rx="16"/>
+    </g>
+    <text x="78" y="92" text-anchor="middle" font-family="Trebuchet MS, sans-serif" font-size="34" fill="#19323c">67</text>
+    <text x="170" y="184" text-anchor="middle" font-family="Trebuchet MS, sans-serif" font-size="34" fill="#19323c">60</text>
+    <circle cx="86" cy="84" r="22" fill="#7dd67d"/>
+    <circle cx="114" cy="84" r="22" fill="#71ca71"/>
+    <circle cx="142" cy="84" r="22" fill="#63bd68"/>
+    <circle cx="170" cy="82" r="24" fill="#56b25e"/>
+  </g>
+  <text x="710" y="210" font-family="Trebuchet MS, sans-serif" font-size="62" fill="#19323c" font-weight="700">Caterpillar</text>
+  <text x="710" y="280" font-family="Trebuchet MS, sans-serif" font-size="62" fill="#19323c" font-weight="700">Hundred Square</text>
+  <text x="710" y="360" font-family="Trebuchet MS, sans-serif" font-size="38" fill="#35545f">Tap the answer. Watch the caterpillar move.</text>
+</svg>
